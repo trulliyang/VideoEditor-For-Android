@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.example.cj.videoeditor.widget.CameraView
+    <com.example.videoeditor.widget.CameraView
         android:id="@+id/camera_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -33,7 +33,7 @@
                 android:layout_weight="1.0"
                 android:scaleType="center"
                 android:src="@drawable/btn_camera_beauty"/>
-            <com.example.cj.videoeditor.widget.CircularProgressView
+            <com.example.videoeditor.widget.CircularProgressView
                 android:id="@+id/mCapture"
                 android:background="@drawable/bt_capture"
                 android:layout_width="88dp"
@@ -48,7 +48,7 @@
                 android:src="@drawable/btn_camera_filter"/>
         </LinearLayout>
 
-        <com.example.cj.videoeditor.widget.FocusImageView
+        <com.example.videoeditor.widget.FocusImageView
             android:id="@+id/focusImageView"
             android:layout_width="75dip"
             android:layout_height="75dip"

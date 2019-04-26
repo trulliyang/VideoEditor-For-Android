@@ -3,7 +3,7 @@
 
 extern "C"{
 jbyteArray
-Java_com_example_cj_videoeditor_jni_AudioJniUtils_audioMix(JNIEnv *env, jclass type, jbyteArray sourceA_,
+Java_com_example_videoeditor_jni_AudioJniUtils_audioMix(JNIEnv *env, jclass type, jbyteArray sourceA_,
                                                            jbyteArray sourceB_, jbyteArray dst_, jfloat firstVol,
                                                            jfloat secondVol) {
     jbyte *sourceA = env->GetByteArrayElements(sourceA_, NULL);
@@ -74,7 +74,7 @@ Java_com_example_cj_videoeditor_jni_AudioJniUtils_audioMix(JNIEnv *env, jclass t
 
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_com_example_cj_videoeditor_jni_AudioJniUtils_putString(JNIEnv *env, jclass type,
+Java_com_example_videoeditor_jni_AudioJniUtils_putString(JNIEnv *env, jclass type,
                                                             jstring info_) {
     const char *info = env->GetStringUTFChars(info_, 0);
     char buf[128];

@@ -1,4 +1,4 @@
-package com.example.cj.videoeditor;
+package com.example.videoeditor;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.cj.videoeditor", appContext.getPackageName());
+        assertEquals("com.example.videoeditor", appContext.getPackageName());
     }
 }

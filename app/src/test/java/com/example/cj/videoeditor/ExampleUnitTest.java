@@ -1,4 +1,4 @@
-package com.example.cj.videoeditor;
+package com.example.videoeditor;
 
 import org.junit.Test;
 
